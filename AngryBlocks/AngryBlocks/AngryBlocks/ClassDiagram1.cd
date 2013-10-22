@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AngryBlocks.Base.Camera" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAACAAIAAQQAAAAAAAAAEAAABhAAAAQAAAgQQAAA=</HashCode>
+      <FileName>Base\Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Base.GameEngine">
+    <Position X="23.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>DAQCAAAAAAAAA4AAAAMACAAEEEAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Base\GameEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Base.GameObject3D" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAABAAwwAAAAAAAAAAAABAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Base\GameObject3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Base.Scene" Collapsed="true">
+    <Position X="1.5" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAACAAAAAAgYAAAAAAAAAABAAAAAEADAAAAAAIAAA=</HashCode>
+      <FileName>Base\Scene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Engines.AudioEngine">
+    <Position X="26.75" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAAAAYAAAAIAAAAAAAAAAAEAgAEAAAAAygA=</HashCode>
+      <FileName>Engines\AudioEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Engines.CameraEngine" Collapsed="true">
+    <Position X="21.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAAAAAwAAIAQAQAAAAAAAAAAEEAAAEAAAAAA=</HashCode>
+      <FileName>Engines\CameraEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Engines.DebugEngine">
+    <Position X="31.25" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="AngryBlocks.Engines.DebugEngine.DebugShape">
+        <TypeIdentifier>
+          <NewMemberFileName>Engines\DebugEngine.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AggADABAAACAAwAAQACAAAAAgMAAAIAAAAAgAFBgAAQ=</HashCode>
+      <FileName>Engines\DebugEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Engines.FrameRateCounter">
+    <Position X="29" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQAAAwBAAAAAAAAAAAACIAAAACAIgAAAAAQ=</HashCode>
+      <FileName>Engines\FrameRateCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Engines.InputEngine" Collapsed="true">
+    <Position X="24.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQgAICAgAAAAAABAAAIAQAAqAgAARAAAigEAAATAAI=</HashCode>
+      <FileName>Engines\InputEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Engines.PhysicsEngine" Collapsed="true">
+    <Position X="19.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAAAAAAABAAAAQAgAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Engines\PhysicsEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Game1" Collapsed="true">
+    <Position X="19.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAwgAAAAAAAAAAAAAAAgAAAAAAAEAAAQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Helpers" Collapsed="true">
+    <Position X="23" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAgAAEAAAgAAAAAAQAAAAACEAAAAAgA=</HashCode>
+      <FileName>Helpers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Program" Collapsed="true">
+    <Position X="21.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Objects.BasicStaticMesh" Collapsed="true">
+    <Position X="10.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Objects\BasicStaticMesh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Objects.BoxBodyObject" Collapsed="true">
+    <Position X="12.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAQQ=</HashCode>
+      <FileName>Objects\BoxBodyObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Objects.HMTerrain" Collapsed="true">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQAAACAAgAAAAAAAAAAABAAAAAAAkgIAAQAAAQ=</HashCode>
+      <FileName>Objects\HMTerrain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Objects.HorizontalCamera" Collapsed="true">
+    <Position X="1.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\HorizontalCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Objects.SimpleColorTriangle" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAggAAAAAAAQ=</HashCode>
+      <FileName>Objects\SimpleColorTriangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Objects.SimpleLitTexturedTriangle" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQAAAgAAAAAAAAAAAAAAAAQAAggAAAAAAAQ=</HashCode>
+      <FileName>Objects\SimpleLitTexturedTriangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Objects.SimpleModel" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgQAAAAAABAAAACAAAQAAAAAAAAAAAQ=</HashCode>
+      <FileName>Objects\SimpleModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Objects.SimplePhysicsObject" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\SimplePhysicsObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Objects.SimpleRenderObject" Collapsed="true">
+    <Position X="12.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAACAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Objects\SimpleRenderObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Objects.SimpleTexturedTriangle" Collapsed="true">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQAAAgAAAAAAAAAAAAAAAAQAAggAAAAAAAQ=</HashCode>
+      <FileName>Objects\SimpleTexturedTriangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Scenes.Level0" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAQAAAAAAAAAACAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Scenes\Level0.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngryBlocks.Scenes.Level1" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Scenes\Level1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="AngryBlocks.Base.GameObjectEventHandler" Collapsed="true">
+    <Position X="19.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\GameObject3D.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

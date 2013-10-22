@@ -1,0 +1,2 @@
+C:\Users\Neil Gannon\Games Dev\Angry Blocks\Code\AngryBlocks\AngryBlocks\AngryBlocksContent\obj\x86\Debug\AngryBlocksContent.contentprojResolveAssemblyReference.cache
+C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocksContent\obj\x86\Debug\AngryBlocksContent.contentprojResolveAssemblyReference.cache

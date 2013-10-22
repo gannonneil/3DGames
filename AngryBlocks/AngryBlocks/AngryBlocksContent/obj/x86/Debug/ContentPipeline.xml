@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Audio\Songs\broadway.mp3</Source>
+      <Name>Audio\Songs\broadway</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Audio\Songs\broadway.xnb</Output>
+      <Extra>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Audio\Songs\broadway.wma</Extra>
+      <Time>2013-10-17T14:49:05.6053435+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\debug.spritefont</Source>
+      <Name>Fonts\debug</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Fonts\debug.xnb</Output>
+      <Time>2013-10-17T14:49:05.6433473+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Heightmaps\mars.png</Source>
+      <Name>Heightmaps\mars</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Heightmaps\mars.xnb</Output>
+      <Time>2013-10-17T14:49:05.6643494+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\cubecover.png</Source>
+      <Name>Textures\cubecover</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Textures\cubecover.xnb</Output>
+      <Time>2013-10-17T14:49:05.9833813+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\samplemap.fbx</Source>
+      <Name>Models\samplemap</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Models\samplemap.xnb</Output>
+      <Time>2013-10-17T14:49:05.8573687+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\samplemap_0.xml</Key>
+        <Value>2013-10-22T09:11:30.6045305+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Textures\Elephant_0.xnb</Request>
+      <Request>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Textures\palm leafs_0.xnb</Request>
+      <Request>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Textures\palm_bark_0.xnb</Request>
+      <Request>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Textures\sky_0.xnb</Request>
+      <Request>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Textures\ground_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\smallcube.fbx</Source>
+      <Name>Models\smallcube</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Models\smallcube.xnb</Output>
+      <Time>2013-10-17T14:49:05.8763706+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\smallcube_0.xml</Key>
+        <Value>2013-10-22T09:11:34.7143243+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Textures\cubecover_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Audio\Effects\ow.wav</Source>
+      <Name>Audio\Effects\ow</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Audio\Effects\ow.xnb</Output>
+      <Time>2013-10-17T15:18:15.7674894+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\samplemap.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\samplemap_0.xml</Output>
+      <Time>2013-10-17T14:49:05.8573687+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Elephant.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Textures\Elephant_0.xnb</Output>
+      <Time>2012-02-27T23:14:54+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\palm leafs.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Textures\palm leafs_0.xnb</Output>
+      <Time>2013-10-17T14:49:06.2274057+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\palm_bark.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Textures\palm_bark_0.xnb</Output>
+      <Time>2013-10-17T14:49:06.2644094+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\sky.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Textures\sky_0.xnb</Output>
+      <Time>2013-10-17T14:49:06.2894119+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\ground.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Textures\ground_0.xnb</Output>
+      <Time>2013-10-17T14:49:06.0643894+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\smallcube.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\smallcube_0.xml</Output>
+      <Time>2013-10-17T14:49:05.8763706+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\cubecover.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\Textures\cubecover_0.xnb</Output>
+      <Time>2013-10-17T14:49:05.9833813+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocksContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocksContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\s00048021\Desktop\AngryBlocks\AngryBlocks\AngryBlocks\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-10-14T08:10:55.7335256+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
